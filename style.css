@@ -1,1 +1,42 @@
-img{max-width:100px}
+/* This is a CSS file */
+
+/* Global font */
+* { font-family: Georgia, serif; }
+
+/* Headline uppercase */
+h1 {
+  text-transform: uppercase;
+ 
+}
+
+/* Image + caption */
+
+figure {
+  text-align: left;   /* keeps caption centered */
+  margin-bottom: 20px;  /* adds space before paragraphs start */
+}
+
+
+.debate-photo {
+  max-width:750px     
+    
+}
+
+figcaption {
+  color: gray;
+  font-size: 90%;
+}
+
+/* Party colors */
+.democrat { color: blue; }
+.republican { color: red; }
+
+/* Footer styling */
+footer {
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
